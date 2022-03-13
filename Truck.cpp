@@ -26,7 +26,8 @@ class Truck{
         for(int tripID : tripIDList){
             int locA = tripList[tripID].startLocation;
             int locB = tripList[tripID].endLocation;
-            printf("Extra Trip to reach start Location: %d to %d, Distance %d\n", prevLoc, locA, getDistance(prevLoc, locA));
+
+            printf("Trip ID: %d. Extra Trip to start Location: %d to %d, Distance %d\n", tripID, prevLoc, locA, getDistance(prevLoc, locA));
             printf("Main Trip: %d to %d, Distance %d\n", locA, locB, getDistance(locA, locB));
             prevLoc = locB;
         }

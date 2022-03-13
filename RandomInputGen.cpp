@@ -3,6 +3,15 @@ class RandomInputGen{
     public:
     RandomInputGen(int numPlaces){
         this->numPlaces = numPlaces;
+        genDist();
+    }
+    void genDist(){
+        for(int p1 = 0; p1 <= numPlaces; p1++){
+            for(int p2 = 0; p2 <= numPlaces; p2++){
+                if(p1 == p2) continue;
+                getDistance(p1, p2);
+            }
+        }
     }
 
     void addTrucks(vector<Truck> &truckList, int count){
@@ -22,7 +31,7 @@ class RandomInputGen{
         }
 
         Trip newTrip(id, locA, locB);
-        int timeLen = 20, timeD = 2;
+        int timeLen = 40, timeD = 5;
         int startTime = getCurTime() + rand()% timeLen;
         int endTime = startTime + 2 * newTrip.tripDuration() +  rand()% timeLen + timeD;
         newTrip.setTime(startTime, endTime);

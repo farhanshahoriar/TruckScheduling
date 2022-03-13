@@ -1,0 +1,40 @@
+Generated Trips:
+TripID: 0, startLocation: 38, endLocation: 49
+EarliestStartTime: 25, reachTimeLimit: 64, tripDuration: 16
+TripID: 1, startLocation: 18, endLocation: 43
+EarliestStartTime: 19, reachTimeLimit: 107, tripDuration: 38
+TripID: 2, startLocation: 47, endLocation: 4
+EarliestStartTime: 31, reachTimeLimit: 135, tripDuration: 32
+TripID: 3, startLocation: 40, endLocation: 9
+EarliestStartTime: 29, reachTimeLimit: 109, tripDuration: 35
+TripID: 4, startLocation: 45, endLocation: 50
+EarliestStartTime: 5, reachTimeLimit: 88, tripDuration: 23
+TripID: 5, startLocation: 26, endLocation: 13
+EarliestStartTime: 32, reachTimeLimit: 118, tripDuration: 34
+TripID: 6, startLocation: 31, endLocation: 39
+EarliestStartTime: 17, reachTimeLimit: 86, tripDuration: 21
+
+7 Trips assigned out of 7 trips with 243 steps
+Total distance without load is: 58
+TruckID: 0
+Trip ID: 3. Extra Trip to start Location: 26 to 40, Distance 22
+Main Trip: 40 to 9, Distance 35
+
+TruckID: 1
+Trip ID: 2. Extra Trip to start Location: 19 to 47, Distance 7
+Main Trip: 47 to 4, Distance 32
+Trip ID: 5. Extra Trip to start Location: 4 to 26, Distance 1
+Main Trip: 26 to 13, Distance 34
+
+TruckID: 2
+Trip ID: 6. Extra Trip to start Location: 24 to 31, Distance 3
+Main Trip: 31 to 39, Distance 21
+Trip ID: 1. Extra Trip to start Location: 39 to 18, Distance 13
+Main Trip: 18 to 43, Distance 38
+
+TruckID: 3
+Trip ID: 0. Extra Trip to start Location: 13 to 38, Distance 1
+Main Trip: 38 to 49, Distance 16
+Trip ID: 4. Extra Trip to start Location: 49 to 45, Distance 11
+Main Trip: 45 to 50, Distance 23
+
